@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* src/components/Footer.css */
 .footer {
     background-color: #d1dbd1;
@@ -29,4 +30,37 @@
     margin-top: 10px;
     font-size: 14px;
   }
+=======
+/* src/components/Footer.css */
+.footer {
+    background-color: #d1dbd1;
+    color: #333;
+    text-align: center;
+    padding: 20px 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .footer-logo {
+    font-size: 32px;
+    color: #fff;
+  }
+  
+  .footer-title {
+    font-size: 24px;
+  }
+  
+  .footer-text {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+>>>>>>> 9305cd3a566bbd30de8d09f44cb9d19ba9e48fbe
   
