@@ -1,0 +1,99 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(203, 202, 202);
+    box-shadow: 0 0 10px rgba(149, 41, 41, 0.1);
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    color: #333;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  .imgae{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+  }
+  
+  .nav-links li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #333;
+  }
+  
+  .user-icon {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .mobile-menu-icon {
+    display: none;
+    color: #fff;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  .user-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .user-icon {
+    font-size: 1.5em;
+    margin-right: 5px;
+  }
+  
+  .username {
+    font-size: 1em;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+    
+    .nav-links-mobile {
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: #d1dbd1;
+      width: 100%;
+      text-align: center;
+      text-decoration: none;
+      
+    }
+  
+    .nav-links-mobile li {
+      margin: 10px 0;
+    }
+    .nav-links-mobile li a {
+        color: #fff;
+        text-decoration: none;
+      }
+  
+    .mobile-menu-icon {
+      display: block;
+      
+    }
+  }
+  
